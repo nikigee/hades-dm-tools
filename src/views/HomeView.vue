@@ -1,11 +1,17 @@
 <template>
     <div>
         <div class="py-3 px-5 d-flex align-items-center flex-wrap justify-content-between">
-            <h1 class="h2 m-0">Uplink v.0.1</h1>
-            <span>Welcome, Hades.</span>
+            <div>
+                <h1 class="h3 m-0">UPLINK v.0.1</h1>
+                <span class="text-primary-emphasis bg-primary-subtle p-1 px-3">TACTICAL BATTLE INTERFACE</span>
+            </div>
+            <div class="">
+                <span>Welcome, Hades.</span>
+
+            </div>
         </div>
         <div class="row g-0 mt-4">
-            <div class="col mt-3">
+            <div class="col">
                 <div class="container">
                     <div class="d-flex flex-wrap">
                         <Card v-for="t, index in tokens" class="card-token mx-2 overflow-visible">
@@ -21,7 +27,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3 mt-3">
+            <div class="col-lg-3">
                 <addCard class="pe-3" />
             </div>
         </div>

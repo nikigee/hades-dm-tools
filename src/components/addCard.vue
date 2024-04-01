@@ -1,7 +1,7 @@
 <template>
     <div>
         <div class="container">
-            <h3 class="text-uppercase">Add a Card</h3>
+            <h3 class="text-uppercase">Add an Entity</h3>
             <div class="mb-2">
                 <label class="form-label text-muted">Name</label>
                 <input type="text" class="form-control" v-model="$parent.f.name" />
